@@ -1,0 +1,23 @@
+{
+  "name": "node-rest-chat",
+  "version": "1.0.0",
+  "description": "Rest API for chat",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx run app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ferj",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0",
+    "mongoose": "^5.10.9",
+    "socket.io": "^3.0.3"
+  }
+}
